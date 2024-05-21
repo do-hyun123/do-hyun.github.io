@@ -4,7 +4,7 @@
 theme: jekyll-theme-chirpy
 
 # The language of the webpage
-lang: ko
+lang: en
 
 # Change to your timezone
 timezone: Asia/Shanghai
@@ -16,7 +16,7 @@ description: >-
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
-url: "https://do-hyun.github.io"
+url: "https://do-hyun123.github.io"
 
 github:
   username: do-hyun123 # change to your GitHub username
@@ -75,22 +75,9 @@ social_preview_image:
 toc: true
 
 comments:
-  provider:
+  provider: disqus
   disqus:
-    shortname:
-  utterances:
-    repo:
-    issue_term:
-  giscus:
-    repo:
-    repo_id:
-    category:
-    category_id:
-    mapping:
-    strict:
-    input_position:
-    lang:
-    reactions_enabled:
+    shortname: do-hyun
 
 # Self-hosted static assets, optional
 assets:
