@@ -1,10 +1,13 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gemspec
+gem "jekyll", "~> 4.2.0"
+gem "jekyll-theme-chirpy"
+gem "webrick", "~> 1.7" # Jekyll 4.x 버전에서 필요
 
-group :test do
-  gem "html-proofer", "~> 5.0"
-ruby '3.1.1'
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-archives"
 end
+
